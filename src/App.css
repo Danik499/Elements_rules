@@ -1,5 +1,11 @@
+@font-face {
+  font-family: WindsorOld;
+  src: url(./assets/3229-font.ttf);
+}
+
 .App {
   text-align: center;
+  font-family: WindsorOld;
 }
 
 .App-logo {
