@@ -8,7 +8,6 @@ import {
   Fire,
   King,
   Rules,
-  Sword,
   Terra,
 } from "../../assets/icons";
 

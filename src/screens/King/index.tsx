@@ -26,6 +26,7 @@ const King = () => {
         <RuleSegment
           card={() => <Sword width={170} height={270} />}
           cardPosition="left"
+          color="king"
           header="Меч"
         >
           <div style={{ color: "white" }}>
@@ -44,6 +45,7 @@ const King = () => {
         <RuleSegment
           card={() => <Guards width={170} height={270} />}
           cardPosition="right"
+          color="king"
           header="Гвардія"
         >
           <div style={{ color: "white" }}>
@@ -59,6 +61,7 @@ const King = () => {
         <RuleSegment
           card={() => <Shield width={170} height={270} />}
           cardPosition="left"
+          color="king"
           header="Щит"
         >
           <div style={{ color: "white" }}>
@@ -75,6 +78,7 @@ const King = () => {
         <RuleSegment
           card={() => <Potion width={170} height={270} />}
           cardPosition="right"
+          color="king"
           header="Зілля"
         >
           <div style={{ color: "white" }}>Відновлює одиницю життя</div>
@@ -89,6 +93,7 @@ const King = () => {
         <RuleSegment
           card={() => <Prison width={170} height={270} />}
           cardPosition="left"
+          color="king"
           header="В'язниця"
         >
           <div style={{ color: "white" }}>
@@ -107,6 +112,7 @@ const King = () => {
         <RuleSegment
           card={() => <Mirror width={170} height={270} />}
           cardPosition="right"
+          color="king"
           header="Дзеркало"
         >
           <div style={{ color: "white" }}>

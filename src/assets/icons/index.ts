@@ -13,3 +13,9 @@ export { ReactComponent as Shield } from "./king/shield.svg";
 export { ReactComponent as Potion } from "./king/potion.svg";
 export { ReactComponent as Prison } from "./king/prison.svg";
 export { ReactComponent as Mirror } from "./king/mirror.svg";
+
+export { ReactComponent as Spark } from "./piro/spark.svg";
+export { ReactComponent as Flame } from "./piro/flame.svg";
+export { ReactComponent as Lighting } from "./piro/lighting.svg";
+export { ReactComponent as Inferno } from "./piro/inferno.svg";
+export { ReactComponent as Challenge } from "./piro/challenge.svg";
