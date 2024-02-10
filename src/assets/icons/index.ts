@@ -19,3 +19,9 @@ export { ReactComponent as Flame } from "./piro/flame.svg";
 export { ReactComponent as Lighting } from "./piro/lighting.svg";
 export { ReactComponent as Inferno } from "./piro/inferno.svg";
 export { ReactComponent as Challenge } from "./piro/challenge.svg";
+
+export { ReactComponent as Accuracy } from "./terra/accuracy.svg";
+export { ReactComponent as TerraShield } from "./terra/shield.svg";
+export { ReactComponent as Theft } from "./terra/theft.svg";
+export { ReactComponent as Poison } from "./terra/poison.svg";
+export { ReactComponent as Destruction } from "./terra/destruction.svg";
