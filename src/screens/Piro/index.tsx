@@ -2,6 +2,7 @@ import React from "react";
 import { Challenge, Flame, Inferno, Lighting, Spark } from "../../assets/icons";
 import theme from "../../theme";
 import RuleSegment from "../../components/RuleSegment";
+import BackButton from "../../components/BackButton";
 
 const colors = theme.colors;
 
@@ -103,6 +104,7 @@ const Piro = () => {
             <span style={{ color: colors.king }}>меч, булава, гвардія</span>
           </div>
         </RuleSegment>
+        <BackButton color="piro" />
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import {
   TerraShield,
   Theft,
 } from "../../assets/icons";
+import BackButton from "../../components/BackButton";
 
 const colors = theme.colors;
 
@@ -64,7 +65,7 @@ const Terra = () => {
             з колоди.
           </div>
           <br />
-          <div style={{ color: "#989898" }}>
+          <div style={{ color: colors.clarification }}>
             Не можна вкрасти картку сундук або стехії
           </div>
         </RuleSegment>
@@ -85,7 +86,7 @@ const Terra = () => {
             життя
           </div>
           <br />
-          <div style={{ color: "#989898" }}>
+          <div style={{ color: colors.clarification }}>
             Не можна поставити на гравця з активною карткою капкан
           </div>
         </RuleSegment>
@@ -100,10 +101,12 @@ const Terra = () => {
             Знищена картка відправляється у відбій
           </div>
           <br />
-          <div style={{ color: "#989898" }}>
+          <div style={{ color: colors.clarification }}>
             Не можна знищети картку сундук або стехії
           </div>
         </RuleSegment>
+
+        <BackButton color="terra" />
       </div>
     </div>
   );

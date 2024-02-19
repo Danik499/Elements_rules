@@ -25,3 +25,9 @@ export { ReactComponent as TerraShield } from "./terra/shield.svg";
 export { ReactComponent as Theft } from "./terra/theft.svg";
 export { ReactComponent as Poison } from "./terra/poison.svg";
 export { ReactComponent as Destruction } from "./terra/destruction.svg";
+
+export { ReactComponent as Flight } from "./aero/flight.svg";
+export { ReactComponent as Miss } from "./aero/miss.svg";
+export { ReactComponent as Replica } from "./aero/replica.svg";
+export { ReactComponent as Ricochet } from "./aero/ricochet.svg";
+export { ReactComponent as Triplet } from "./aero/triplet.svg";

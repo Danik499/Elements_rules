@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home, King, Piro, Terra } from "../screens";
+import { Aero, Home, King, Piro, Terra } from "../screens";
 
 const Navigation = () => {
   return (
@@ -10,6 +10,7 @@ const Navigation = () => {
         <Route path="/king" element={<King />} />
         <Route path="/piro" element={<Piro />} />
         <Route path="/terra" element={<Terra />} />
+        <Route path="/aero" element={<Aero />} />
       </Routes>
     </BrowserRouter>
   );

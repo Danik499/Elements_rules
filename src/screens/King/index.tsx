@@ -9,6 +9,7 @@ import {
 } from "../../assets/icons";
 import theme from "../../theme";
 import RuleSegment from "../../components/RuleSegment";
+import BackButton from "../../components/BackButton";
 
 const colors = theme.colors;
 
@@ -128,6 +129,7 @@ const King = () => {
             атаку та нанести противнику 2
           </div>
         </RuleSegment>
+        <BackButton color="king" />
       </div>
     </div>
   );
