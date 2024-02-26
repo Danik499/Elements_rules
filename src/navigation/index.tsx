@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Aero, Home, King, Piro, Terra } from "../screens";
+import { Aero, Aqua, Home, King, Piro, Terra } from "../screens";
 
 const Navigation = () => {
   return (
@@ -11,6 +11,7 @@ const Navigation = () => {
         <Route path="/piro" element={<Piro />} />
         <Route path="/terra" element={<Terra />} />
         <Route path="/aero" element={<Aero />} />
+        <Route path="/aqua" element={<Aqua />} />
       </Routes>
     </BrowserRouter>
   );

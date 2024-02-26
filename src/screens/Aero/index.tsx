@@ -6,7 +6,7 @@ import BackButton from "../../components/BackButton";
 
 const colors = theme.colors;
 
-const Terra = () => {
+const Aero = () => {
   return (
     <div
       style={{
@@ -14,7 +14,7 @@ const Terra = () => {
         backgroundColor: "#101010",
       }}
     >
-      <div style={{ fontSize: 70, color: colors.aero }}>Тера</div>
+      <div style={{ fontSize: 70, color: colors.aero }}>Аеро</div>
 
       <div style={{ margin: "0 auto", width: "90%", maxWidth: 400 }}>
         <RuleSegment
@@ -78,4 +78,4 @@ const Terra = () => {
   );
 };
 
-export default Terra;
+export default Aero;

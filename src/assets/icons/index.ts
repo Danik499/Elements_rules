@@ -31,3 +31,9 @@ export { ReactComponent as Miss } from "./aero/miss.svg";
 export { ReactComponent as Replica } from "./aero/replica.svg";
 export { ReactComponent as Ricochet } from "./aero/ricochet.svg";
 export { ReactComponent as Triplet } from "./aero/triplet.svg";
+
+export { ReactComponent as Jester } from "./aqua/jester.svg";
+export { ReactComponent as Life } from "./aqua/life.svg";
+export { ReactComponent as Owl } from "./aqua/owl.svg";
+export { ReactComponent as Piroblock } from "./aqua/piroblock.svg";
+export { ReactComponent as WaterPotion } from "./aqua/potion.svg";
