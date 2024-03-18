@@ -1,11 +1,16 @@
 import React from "react";
 import {
   Guards,
+  KingKey,
+  KingMiss,
+  Mace,
   Mirror,
   Potion,
   Prison,
   Shield,
   Sword,
+  Trap,
+  Tribute,
 } from "../../assets/icons";
 import theme from "../../theme";
 import RuleSegment from "../../components/RuleSegment";
@@ -35,7 +40,7 @@ const King = () => {
           </div>
           <br />
           <div style={{ color: "white" }}>
-            Картка віднімає 1 жаття якщо у противника немає
+            Картка віднімає 1 життя якщо у противника немає
             <span style={{ color: colors.aero }}>
               &nbsp;промахів, рикошетів&nbsp;
             </span>
@@ -129,6 +134,54 @@ const King = () => {
             атаку та нанести противнику 2
           </div>
         </RuleSegment>
+
+        <RuleSegment
+          card={() => <Trap width={170} height={270} />}
+          cardPosition="left"
+          color="king"
+          header="Капкан"
+        >
+          <div style={{ color: "white" }}>
+            Киньте на будь-якого гравця. Втрата життя якщо не випадає тип
+            <span style={{ color: colors.terra }}> «Рослина»</span>
+          </div>
+        </RuleSegment>
+
+        <RuleSegment
+          card={() => <KingMiss width={170} height={270} />}
+          cardPosition="right"
+          color="king"
+          header="Промах"
+        >
+          <div style={{ color: "white" }}>Промах від атак</div>
+        </RuleSegment>
+
+        <RuleSegment
+          card={() => <Mace width={170} height={270} />}
+          cardPosition="left"
+          color="king"
+          header="Булава"
+        >
+          <div style={{ color: "white" }}>
+            Нанесіть удар по будь-якому гравцю
+          </div>
+          <br />
+          <div style={{ color: colors.white }}>
+            Картка віднімає 1 життя якщо у противника немає{" "}
+            <span style={{ color: colors.aero }}>промахів, рикошетів</span>
+            або <span style={{ color: colors.terra }}>захисту</span>
+          </div>
+        </RuleSegment>
+
+        <RuleSegment
+          card={() => <KingKey width={170} height={270} />}
+          cardPosition="right"
+          color="king"
+          header="ключ"
+        >
+          <div style={{ color: "white" }}>Відкриває золоту скриню</div>
+        </RuleSegment>
+
         <BackButton color="king" />
       </div>
     </div>

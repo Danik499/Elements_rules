@@ -8,6 +8,8 @@ const theme = {
     character: "#ad00ff",
     white: "#fff",
     clarification: "#989898",
+    chest: "#FF3030",
+    gray: "#2B2B2B",
   },
 };
 

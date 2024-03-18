@@ -6,7 +6,7 @@ const colors = theme.colors;
 interface Props {
   card: () => JSX.Element;
   cardPosition: "left" | "right";
-  color: "king" | "piro" | "terra" | "aero" | "aqua";
+  color: "king" | "piro" | "terra" | "aero" | "aqua" | "white";
   header: string;
   children: React.ReactNode;
 }

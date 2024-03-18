@@ -20,7 +20,7 @@ const Terra = () => {
         backgroundColor: "#101010",
       }}
     >
-      <div style={{ fontSize: 70, color: colors.terra }}>Тера</div>
+      <div style={{ fontSize: 70, color: colors.terra }}>Терра</div>
 
       <div style={{ margin: "0 auto", width: "90%", maxWidth: 400 }}>
         <RuleSegment
