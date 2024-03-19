@@ -5,7 +5,7 @@ import Elements from "../screens/Elements";
 
 const Navigation = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Elements_rule">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/king" element={<King />} />
